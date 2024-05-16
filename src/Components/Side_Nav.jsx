@@ -19,7 +19,7 @@ const Side_Nav = ({ collapse, setCollapse }) => {
   const List = [
     {
       label: "Overview",
-      route: "/Overview",
+      route: "/",
     },
     {
       label: "Class Wise",

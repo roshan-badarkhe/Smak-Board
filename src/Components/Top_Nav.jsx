@@ -26,7 +26,7 @@ const Top_Nav = ({ setCollapse }) => {
         <span className="font-semibold">SMAK Board</span>
       </div>
       <div className="hidden md:block text-white font-bold">
-        pages{location.pathname}
+        pages{location.pathname === "/" ? "/Overview" : location.pathname}
       </div>
       <div className="flex md:gap-6 gap-4 items-center md:mr-8">
         <svg
