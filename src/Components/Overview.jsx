@@ -23,7 +23,7 @@ const Overview = () => {
           53
         </div>
       </div>
-      <div className="grow w-auto mx-5 mt-5 rounded-lg bg-white">
+      <div className="grow w-auto ml-6 mx-5 mt-5 rounded-lg bg-white">
         <LineChart />
       </div>
 
